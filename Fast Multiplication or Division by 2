@@ -1,0 +1,16 @@
+package practice;
+
+import java.util.*;
+
+public class rough
+
+{
+	public static void main(String args[]) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int value = sc.nextInt();
+		
+		System.out.println(value << 1);	//MULTIPLICATION BY 2
+		System.out.println(value >> 1);	//DIVIDE BY 2
+	}
+}
